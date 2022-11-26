@@ -24,11 +24,11 @@ https://laravel.com/docs/9.x/installation#getting-started-on-windows
 Ensure you clone the repository into your linux or macOS filesystem.
 
 ```bash
-git clone https://github.com/cwray-tech/Awia-For-Nurseries.git
+git clone https://github.com/awia-co/NurseryPeople.git
 ```
 
 ### Install packages
-Open terminal @ Awia-For-Nurseries folder
+Open terminal @ NurseryPeople/backend folder
 
 - [Configure a bash alias for sail](https://laravel.com/docs/9.x/sail#configuring-a-bash-alias) by running the following command in your linux terminal:
 
