@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SearchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
+Route::get('search', [SearchController::class, 'index'])->name('search');
 Route::resource('plants', 'App\Http\Controllers\PlantsController');
 
 Route::get('/dashboard', function () {

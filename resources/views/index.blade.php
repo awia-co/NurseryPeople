@@ -1,3 +1,3 @@
 <x-app-layout>
-  <x-section.search />
+  <x-section.hero-search />
 </x-app-layout>
