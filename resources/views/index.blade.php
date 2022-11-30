@@ -7,6 +7,10 @@
     <x-slot:subtitle>
       Find and save plants.
     </x-slot:subtitle>
+
+    <x-slot:imgsrc>/images/thundercloud-plum-photo.jpg</x-slot:imgsrc>
+    <x-slot:imgcaption>Thundercloud plum flowers</x-slot:imgcaption>
+
     <x-slot:paragraph>
       Needing a certain hard to find plant? Search for it on our site, and save it for later. See what nurseries grow, and find what plants are most common.
     </x-slot:paragraph>

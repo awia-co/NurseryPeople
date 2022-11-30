@@ -24,18 +24,10 @@
         </div>
       </div>
       <div class="relative lg:col-start-2 lg:row-start-1">
-        <svg class="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
-          <defs>
-            <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
-        </svg>
         <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
           <figure>
             <div class="aspect-w-12 aspect-h-4 lg:aspect-none">
-              <img class="rounded-lg object-cover object-center shadow-lg" src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80" alt="Whitney leaning against a railing on a downtown street" width="1184" height="1376">
+              <img class="rounded-lg object-cover object-center shadow-lg" src="{{$imgsrc}}" alt="{{ $imgcaption }}" width="1184" height="1376">
             </div>
             @if(isset($imgcaption))
             <figcaption class="mt-3 flex text-sm text-gray-500">
