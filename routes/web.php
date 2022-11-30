@@ -15,8 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('index');
+
+Route::resource('plants', 'App\Http\Controllers\PlantsController');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -26,8 +28,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-
-    Route::resource('plants', 'App\Http\Controllers\PlantsController');
 });
 
 require __DIR__ . '/auth.php';
