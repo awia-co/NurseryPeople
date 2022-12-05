@@ -1,6 +1,6 @@
 <div class="overflow-hidden bg-white">
   <div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-    <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-red-500 lg:block"></div>
+    <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-pink-600 lg:block"></div>
 
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8  items-center">
       <div class="mt-8 lg:mt-0">
