@@ -1,13 +1,13 @@
 <div class="overflow-hidden bg-white">
   <div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-    <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"></div>
+    <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-red-500 lg:block"></div>
 
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8  items-center">
       <div class="mt-8 lg:mt-0">
         <div class="mx-auto mb-8 max-w-prose">
           <div>
             @if(isset($title))
-            <h2 class="text-lg font-semibold text-indigo-600">{{$title}}</h2>
+            <h2 class="text-lg font-semibold text-pink-600">{{$title}}</h2>
             @endif
             @if(isset($subtitle))
             <h3 class="mt-2 text-4xl font-bold leading-8 tracking-tight text-gray-900 sm:text-5xl">{{$subtitle}}</h3>
@@ -19,7 +19,7 @@
           <p class="text-lg text-gray-500">{{$paragraph}}</p>
         </div>
         @endif
-        <div class="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+        <div class="prose prose-pink mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
           {{$slot}}
         </div>
       </div>
