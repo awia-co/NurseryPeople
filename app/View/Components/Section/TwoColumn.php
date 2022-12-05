@@ -8,8 +8,8 @@ class TwoColumn extends Component
 {
     public string $title;
     public string $subtitle;
-    public string $imgsrc;
-    public string $imgcaption;
+    public string $imagesrc;
+    public string $imagecaption;
     public bool $imageRight;
 
     /**
@@ -17,12 +17,12 @@ class TwoColumn extends Component
      *
      * @return void
      */
-    public function __construct($title, $subtitle, $imgsrc = "/images/thundercloud-plum-photo.jpg", $imgcaption = "Thundercloud plum flowers.", $imageRight = true)
+    public function __construct($title, $subtitle, $imagesrc = "/images/thundercloud-plum-photo.jpg", $imagecaption = "Thundercloud plum flowers.", $imageRight = true)
     {
         $this->title = $title;
         $this->subtitle = $subtitle;
-        $this->imgsrc = $imgsrc;
-        $this->imgcaption = $imgcaption;
+        $this->imagesrc = $imagesrc;
+        $this->imagecaption = $imagecaption;
         $this->imageRight = $imageRight;
     }
 
