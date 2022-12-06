@@ -17,7 +17,7 @@ use App\Http\Controllers\SearchController;
 
 Route::get('/', function () {
     return view('index');
-})->name('index');
+})->name('home');
 
 Route::get('search', [SearchController::class, 'index'])->name('search');
 Route::resource('plants', 'App\Http\Controllers\PlantsController');

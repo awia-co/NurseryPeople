@@ -11,4 +11,5 @@
     </x-slot:paragraph>
   </x-section.two-column>
   <x-section.sponsors />
+  <x-navigation.footer />
 </x-app-layout>
