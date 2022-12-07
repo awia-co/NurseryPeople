@@ -1,8 +1,8 @@
 <div class="overflow-hidden bg-white">
   <div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-    <div class="absolute top-0 bottom-0 @if($imageRight) left-3/4 @else right-3/4 @endif hidden w-screen bg-gray-50 lg:block"></div>
+    <!--BG if wanted <div class="absolute top-0 bottom-0 @if($imageRight) left-3/4 @else right-3/4 @endif hidden w-screen bg-gray-50 lg:block"></div> -->
 
-    <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8  items-center">
+    <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-16  items-center">
       <div class="mt-8 lg:mt-0">
         <div class="mx-auto mb-8 max-w-prose">
           <div>
